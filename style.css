@@ -261,8 +261,10 @@ button:hover{
 /* desktop version */
 @media (min-width: 900px){
     body{
-        margin: 0 ;
         background-color: var(--neutral-100);
+        max-width: 80rem;
+        min-width: 40rem ;
+        margin: auto;
     }
     .login-desktop,.register-desktop{
         display: block;
@@ -290,10 +292,10 @@ button:hover{
         display: flex;
         position: relative;
         align-items: center;
+        gap: 6.666%;
     }
     .main-menu >ul li {
         text-align: center;
-        margin-left: 1.5vw;
     }
     header{
         height: 2rem;
@@ -381,7 +383,6 @@ button:hover{
         grid-area: a;
         margin-left: 5rem;
         min-width: none;
-/*         align-items: center; */
     }
     .img-container-right{
         grid-area: b;
@@ -450,9 +451,10 @@ button:hover{
 
 @media (max-width: 900px) and ( min-width: 600px){
     body{
-        margin: 0 ;
         background-color: var(--neutral-100);
-    }
+        max-width: 80rem;
+        min-width: 45rem ;
+     }
     .login-desktop,.register-desktop{
         display: block;
     }
@@ -640,3 +642,17 @@ button:hover{
         }
 
 }
+@media (max-width: 600px){
+    .text-container-left{
+        justify-content: center;
+    }
+    .paragraphe-container{
+        display: flex;
+        justify-content: center;
+    }
+    .img-container-right{
+        display: flex;
+        justify-content: center;
+    }
+}
+/*  */
