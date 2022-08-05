@@ -37,7 +37,7 @@ Users should be able to:
 ![](./design/mobile-menu-collapsed.jpg.jpg)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/medsagou/intro-section-with-dropdown-navigation.git](https://github.com/medsagou/intro-section-with-dropdown-navigation.git)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
